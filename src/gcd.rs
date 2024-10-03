@@ -1,3 +1,4 @@
+/// calculate the greatest common divisor of two unsigned integers
 pub fn gcd(mut a: u32, mut b: u32) -> u32 {
     if a == 0 {
         return b;
